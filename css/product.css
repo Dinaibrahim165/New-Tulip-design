@@ -1,0 +1,158 @@
+.products{
+    width: 100%;
+    height: 280vh;
+    background:linear-gradient(
+       to bottom,
+       white ,
+       #f6d1da 50%,
+       white
+    );
+}
+.products-title{
+    font-size: 35px;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Courgette', cursive;
+    color: #011122;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.products-t2{
+    font-size: 18px;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Courgette', cursive;
+    color: #f86386;
+    text-align: center;
+}
+.underline-t{
+    width: 100px;
+    height: 2px;
+    background-color: #011122;
+    margin: auto;
+    margin-top: 5px;   
+    margin-bottom: 20px;
+}
+.container-product{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    overflow: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.portfolio-content{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: auto;
+    float: left;
+    margin-left: 100px;
+}
+.portfolio-item{
+    width: 300px;
+    height: 320px;
+    overflow: auto;
+    float: left;
+    position: absolute;
+    position: relative;
+    margin-left: 13px;
+}
+img{
+    width: 280px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 25px;
+    position: absolute;
+    border-radius: 20px;
+}
+.layer-content{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.layer-info{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    visibility: hidden;
+    z-index: 10;
+}
+.portfolio-content:hover .layer-info{
+    visibility: visible;
+} 
+.category{
+    color:#033265;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    transition-delay: 0.5s;
+}
+.layer-content-title{
+    color:#033265;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    transition-delay: 0.75s;
+}
+.portfolio-content::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color:#f6d1da;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+.portfolio-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    visibility: visible;
+} 
+.icon-p{
+    font-size: 18px;
+    color:#033265;
+    margin-top: 10px;
+    transition-delay: 1s;
+}
+.icon-pp{
+    font-size: 18px;
+    color:#033265;
+    margin-left:20px;
+}
+.icon-pp:hover{
+    color:#f86386;
+}
+.icon-p2{
+    font-size: 15px;
+    color:#f86386;    
+}
+.icons{
+    margin-left: 60px;
+    display: inline;
+    z-index: 20;
+}
+.icon-p3{
+    color:#001933;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.content-2{
+    margin-left: 100px;
+}
+.new{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.neww{
+    float: left;
+}

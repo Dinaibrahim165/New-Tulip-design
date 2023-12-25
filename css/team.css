@@ -1,0 +1,111 @@
+.team{
+    width: 100%;
+    height: 100vh;
+}
+.container-team {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.team-item {
+    float: left;
+    border-radius: 20px;
+    border: solid 3px #f6d1da;
+    width: 30%;
+    height: 350px;
+    padding: 14px  18px;
+    text-align: center;
+    position: relative;
+}
+.sec {
+    margin: 0px  5%;
+}
+.team-img {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.t-img{
+    position: absolute;
+    left: 0%;
+    margin: auto;
+}
+.team-img  img {
+    width: 100%;
+}
+
+.team-overley {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+.team-item:hover .team-overley{
+    visibility: visible;
+}
+.team-overley a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #f6d1da;
+    color: #fff;
+    font-size: 23px ;
+    margin-left: auto ;
+}
+.team-overley  a  i {
+    line-height: 40px ;
+}
+
+.team-info-title {
+    text-transform: capitalize;
+    padding: 12px  0px;
+    color: #011122;
+    margin-top: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-info-sp1 {
+    text-transform: capitalize;
+    color:#f37693;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.team-item:hover  .team-info-title {
+    color: #f37693;
+}
+.team-item:hover  .team-info-sp1 {
+    color: grey;
+}
+.team-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:#f9b0c2;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 2s;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.team-title{
+    font-size: 45px;
+    color: #011122;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.underline-team{
+    width: 120px;
+    height: 2px;
+    background-color: #011122;
+    margin-top: 8px;   
+    margin-bottom: 40px;  
+    margin-left: 700px; 
+}
